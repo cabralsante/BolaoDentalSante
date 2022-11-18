@@ -1,0 +1,102 @@
+.modal_img {
+    width: 280px;
+    height: 496px;
+}
+
+main {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 17vh;
+}
+
+.container {
+    display: flex;
+    margin-top: 91px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+}
+
+.profile_picture {
+    margin-bottom: 9px;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.coins > div {
+    display: flex;
+    align-items: center;
+}
+
+.coins > div > h2 {
+    color: #F5C116;
+}
+
+.footer_modal_container{
+    display: flex;
+    align-items: flex-end;
+    margin-left: 24px;
+    gap: 0 18px;
+}
+
+.changelog {
+    position: relative;
+    width: 172px;
+    height: 137px;
+    background-color: #F0F0F0;
+    border-radius: 8px;
+    padding: 3px 6px;
+}
+
+.changelog > .line {
+    position: absolute;
+    top: 21px;
+    left: 0;
+    width: 172px;
+    border: 1px solid #D8D8D8;
+}
+
+.changelog > h3 {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.05em;
+    color: black;
+    margin-bottom: 12px;
+}
+
+.changelog > p {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.05em;
+    color: #4E4E4E;
+    width: 166px;
+    word-wrap: break-word;
+}
+
+
+.red {
+    color: #DB4141;
+}
+
+.green {
+    color: #57BB47;
+}
+
+.ball_gif {
+    width: 102px;
+    height: 101px;
+}
+
+.santeammountcoin {
+    width: 54px;
+    height: 69px;
+}

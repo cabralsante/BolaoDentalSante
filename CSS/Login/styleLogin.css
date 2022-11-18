@@ -1,0 +1,65 @@
+.img_modal {
+    width: 260px;
+    height: 298px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 27vh;
+    position: relative;
+}
+
+.modal_content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 31px 0;
+    top: 107px;
+}
+
+.modal_content > div {
+    display: flex;
+    flex-direction: column;
+    gap: 12px 0;
+}
+
+.modal_content > div > input {
+    width: 194px;
+    height: 36px;
+    border-radius: 48px;
+    background-color: #F3F3F3;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 15px;
+    border: 1px solid #9D9D9D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.modal_content > div > input::placeholder {
+    color: rgba(0, 0, 0, 0.43);
+}
+
+.modal_content > button {
+    font-size: 20px;
+    font-weight: 600;
+    color: #0C9C3A;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-transform: uppercase;
+    width: 158px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    justify-content: flex-end;
+    background-color: #F7D801;
+    border-radius: 7px;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    border-color: transparent;
+}
+
+.ball {
+    width: 38px;
+    height: 38px;
+}

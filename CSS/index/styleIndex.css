@@ -1,0 +1,10 @@
+.img_modal {
+    width: 260px;
+    height: 300px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 27vh;
+}

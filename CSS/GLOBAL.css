@@ -1,0 +1,11 @@
+* {
+    font-family: "Open Sauce One";
+}
+
+body {
+    background-image: url("/assets/BG_Main.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

@@ -1,0 +1,141 @@
+* {
+    font-family: "Open Sauce One";
+}
+
+body {
+    background-image: url("/assets/Modal Window Score.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 145px;
+    padding-top: 152px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+}
+
+.cash {
+    display: flex;
+    align-items: center;
+}
+
+.cash > h2 {
+    color: #F5C116;
+}
+
+.palpite {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 18px;
+}
+
+.palpite > input {
+    width: 45px;
+    height: 26px;
+    border-radius: 7px;
+    background-color: #EDEDED;
+    box-shadow: inset 3px -2px 4px rgba(0, 0, 0, 0.25);
+    border: 0.5px solid #000000;
+}
+
+.flag {
+    width: 62px;
+}
+
+.container {
+    position: relative;
+    margin-top: 13.45px;
+}
+
+.container_content {
+    display: flex;
+    gap: 0 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_content > .hour {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: -0.05em;
+    color: #8D8D8D;
+    position: absolute;
+    top: 4px;
+}
+
+.palpite > .versus {
+    width: 26px;
+}
+
+.container_content > button {
+    position: absolute;
+    top: 62px;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.13em;
+    width: 100px;
+    height: 26px;
+    border-radius: 23px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: #63C85A;
+}
+
+.container_pais {
+    display: flex;
+    justify-content: center;
+    gap: 0 144px;
+}
+
+.pais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pais > .country_title {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 11px;  /* or 88.7% */
+    text-align: center;
+    letter-spacing: -0.05em;
+    width: 52px;
+    word-wrap: break-word;
+}
+
+.line {
+    position: absolute;
+    top: 93px;
+    width: 266px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 50%;
+}
+
+.container_footer {
+    position: absolute;
+    top: 48px;
+    right: 0;
+}
+
+.container_footer > .pointer_finger {
+    position: absolute;
+    top: -20px;
+    right: 60px;
+    transform: matrix(-0.9, -0.44, -0.44, 0.9, 0, 0);
+    width: 64.15px;
+}

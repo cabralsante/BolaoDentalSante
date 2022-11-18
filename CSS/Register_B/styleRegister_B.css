@@ -1,0 +1,57 @@
+.img_modal {
+    width: 280px;
+    height: 496px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 16vh;
+    position: relative;
+}
+
+.modal_content {
+    top: 102px;
+    position: absolute;
+    gap: 21px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal_content > input {
+    width: 194px;
+    height: 36px;
+    border-radius: 48px;
+    background-color: #F3F3F3;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 15px;
+    border: 1px solid #9D9D9D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.modal_content > button {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-transform: uppercase;
+    width: 158px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    justify-content: center;
+    background-color: #F7D801;
+    border-radius: 7px;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    border-color: transparent;
+}
+
+.modal_content > h3 {
+    align-self: flex-start;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+}
